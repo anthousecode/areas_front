@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+#sw
+sw.*
+#mp4
+dist/*.mp4
+src/*mp4
+*mp4
+Proezd30.mp4
+#gif
+Proezd.gif

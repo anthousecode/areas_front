@@ -1,0 +1,58 @@
+[
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/About.vue",
+    "chunkName": "pages/About",
+    "_name": "_fe0f61c8"
+  },
+  {
+    "name": "Contacts",
+    "path": "/Contacts",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Contacts.vue",
+    "chunkName": "pages/Contacts",
+    "_name": "_9e713ad8"
+  },
+  {
+    "name": "Dynamic",
+    "path": "/Dynamic",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Dynamic.vue",
+    "chunkName": "pages/Dynamic",
+    "_name": "_14c2e10e"
+  },
+  {
+    "name": "Gallery",
+    "path": "/Gallery",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Gallery.vue",
+    "chunkName": "pages/Gallery",
+    "_name": "_b7db92be"
+  },
+  {
+    "name": "Infrastructure",
+    "path": "/Infrastructure",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Infrastructure.vue",
+    "chunkName": "pages/Infrastructure",
+    "_name": "_79dac5b8"
+  },
+  {
+    "name": "News",
+    "path": "/News",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/News.vue",
+    "chunkName": "pages/News",
+    "_name": "_30854994"
+  },
+  {
+    "name": "Sales",
+    "path": "/Sales",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Sales.vue",
+    "chunkName": "pages/Sales",
+    "_name": "_684ec5ca"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_293e0a01"
+  }
+]
