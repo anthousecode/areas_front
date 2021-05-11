@@ -11,14 +11,14 @@ var rendererD3 = {
   moca: {
     objects: [
       {
-        id: 'test1',
-        status: 'sales',
+        id: "test1",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -30,19 +30,19 @@ var rendererD3 = {
             {"x": 130, "y": 394},
             {"x": 208, "y": 422},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test2',
-        status: 'sales',
+        id: "test2",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '11',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "11",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -52,19 +52,19 @@ var rendererD3 = {
             {"x": 64, "y": 325},
             {"x": 210, "y": 381},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test3',
-        status: 'sales',
+        id: "test3",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -76,19 +76,19 @@ var rendererD3 = {
             {"x": 210, "y": 341},
             {"x": 237, "y": 350},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test4',
-        status: 'sales',
+        id: "test4",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -99,19 +99,19 @@ var rendererD3 = {
             {"x": 175, "y": 283},
             {"x": 265, "y": 316},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test5',
-        status: 'sales',
+        id: "test5",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -122,19 +122,19 @@ var rendererD3 = {
             {"x": 292, "y": 283},
 
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test6',
-        status: 'sales',
+        id: "test6",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -144,19 +144,19 @@ var rendererD3 = {
             {"x": 232, "y": 396},
             {"x": 285, "y": 418},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test7',
-        status: 'sales',
+        id: "test7",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -167,19 +167,19 @@ var rendererD3 = {
             {"x": 329, "y": 366},
 
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test8',
-        status: 'sales',
+        id: "test8",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -189,19 +189,19 @@ var rendererD3 = {
             {"x": 320, "y": 294},
             {"x": 374, "y": 312},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test9',
-        status: 'sales',
+        id: "test9",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -211,19 +211,19 @@ var rendererD3 = {
             {"x": 374, "y": 312},
             {"x": 428, "y": 333},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
       {
-        id: 'test10',
-        status: 'sales',
+        id: "test10",
+        status: "sales",
         // TODO if need this or add new field
         otherInfo: {
-          number: '10',
-          kadNumber: '43342347343:67346:888',
-          square: '0,536',
-          price: '15000'
+          number: "10",
+          kadNumber: "43342347343:67346:888",
+          square: "0,536",
+          price: "15000"
         },
         modelView: {
           polygon: [
@@ -232,23 +232,23 @@ var rendererD3 = {
             {"x": 329, "y": 366},
             {"x": 383, "y": 386},
           ],
-          fill: 'yellow',
-          stroke: 'red'
+          fill: "yellow",
+          stroke: "red"
         }
       },
     ]
   },
   elements: {
-    map: {class: '', id: 'map', el: {}, d3El: {}},
-    svg: {name: 'svg', d3El: {}},
-    g: {name: 'g', d3El: {}},
+    map: {class: "", id: "map", el: {}, d3El: {}},
+    svg: {name: "svg", d3El: {}},
+    g: {name: "g", d3El: {}},
     scaleLinerX: {},
     scaleLinerY: {},
-    layout: {id: 'layout', el: {}},
-    closer: {id: 'closer', el: {}},
-    modal: {id: 'modal', el: {}},
-    start: {id: 'start', el: {}},
-    stop: {id: 'stop', el: {}},
+    layout: {id: "layout", el: {}},
+    closer: {id: "closer", el: {}},
+    modal: {id: "modal", el: {}},
+    start: {id: "start", el: {}},
+    stop: {id: "stop", el: {}},
   },
   actions: {
     init: () => {
@@ -256,11 +256,11 @@ var rendererD3 = {
       rendererD3.actions.initData();
       rendererD3.actions.initView();
       rendererD3.actions.initActions();
-      rendererD3.elements.closer.el.addEventListener('click', () => {
+      rendererD3.elements.closer.el.addEventListener("click", () => {
         rendererD3.actions.hideModal();
         rendererD3.actions.hideLayout();
       });
-      rendererD3.elements.layout.el.addEventListener('click', () => {
+      rendererD3.elements.layout.el.addEventListener("click", () => {
         rendererD3.actions.hideModal();
         rendererD3.actions.hideLayout();
       });
@@ -278,7 +278,7 @@ var rendererD3 = {
       rendererD3.elements.stop.el = rendererD3.ui.getElId(rendererD3.elements.stop.id);
     },
     initData: () => {
-      const mapImg = rendererD3.ui.getElId('mapImg')
+      const mapImg = rendererD3.ui.getElId("mapImg");
       rendererD3.data.widthMap = rendererD3.ui.getWidthD3(mapImg);
       rendererD3.data.heightMap = rendererD3.ui.getHeightD3(mapImg);
     },
@@ -286,18 +286,18 @@ var rendererD3 = {
       rendererD3.ui.appendSvg();
       rendererD3.ui.appendG();
       rendererD3.ui.appendScaleLiner();
-      window.removeEventListener('resize', rendererD3.resize.handlers.resize);
-      window.addEventListener('resize', rendererD3.resize.handlers.resize);
-      rendererD3.ui.getElId('map').addEventListener('wheel', w => {
+      window.removeEventListener("resize", rendererD3.resize.handlers.resize);
+      window.addEventListener("resize", rendererD3.resize.handlers.resize);
+      rendererD3.ui.getElId("map").addEventListener("wheel", w => {
         if (w.deltaY < 0) {
           w.preventDefault();
-          rendererD3.ui.getElId('nav').classList.add('hide');
-          rendererD3.ui.getElId('sales-wrapper').classList.add('zoom')
+          rendererD3.ui.getElId("nav").classList.add("hide");
+          rendererD3.ui.getElId("sales-wrapper").classList.add("zoom");
         } else {
-          rendererD3.ui.getElId('sales-wrapper').classList.remove('zoom')
-          rendererD3.ui.getElId('nav').classList.remove('hide');
+          rendererD3.ui.getElId("sales-wrapper").classList.remove("zoom");
+          rendererD3.ui.getElId("nav").classList.remove("hide");
         }
-      })
+      });
       rendererD3.ui.createPolygon(rendererD3.moca.objects);
       const height = document.documentElement.clientHeight / 2;
       const width = document.documentElement.clientWidth / 2;
@@ -315,19 +315,19 @@ var rendererD3 = {
         .on("mouseover", (d) => {
         })
         .on("mouseleave", (d) => {
-        })
+        });
     },
     showModal: () => {
-      rendererD3.elements.modal.el.classList.remove('hide')
+      rendererD3.elements.modal.el.classList.remove("hide");
     },
     showLayout: () => {
-      rendererD3.elements.layout.el.classList.remove('hide')
+      rendererD3.elements.layout.el.classList.remove("hide");
     },
     hideLayout: () => {
-      rendererD3.elements.layout.el.classList.add('hide')
+      rendererD3.elements.layout.el.classList.add("hide");
     },
     hideModal: () => {
-      rendererD3.elements.modal.el.classList.add('hide')
+      rendererD3.elements.modal.el.classList.add("hide");
     },
     updateInputRange: () => {
       d3.select("#nAngle").on("input", function () {
@@ -365,16 +365,16 @@ var rendererD3 = {
             fn(...args);
             timerId = null;
           }, delay);
-        }
+        };
       },
     },
   },
   ui: {
-    getImg: () => '<img unselectable="on" src="../setka2.jpg" class="img-fluid w-100" id="dynamicImg">',
-    removeSvg: () => d3.select('svg').remove(),
+    getImg: () => "<img unselectable=\"on\" src=\"../setka2.jpg\" class=\"img-fluid w-100\" id=\"dynamicImg\">",
+    removeSvg: () => d3.select("svg").remove(),
     getElId: (name) => document.getElementById(name),
-    getWidthD3: (name) => Math.round(Number(d3.select(name).style('width').slice(0, -2))),
-    getHeightD3: (name) => Math.round(Number(d3.select(name).style('height').slice(0, -2))),
+    getWidthD3: (name) => Math.round(Number(d3.select(name).style("width").slice(0, -2))),
+    getHeightD3: (name) => Math.round(Number(d3.select(name).style("height").slice(0, -2))),
     appendSvg: () => {
       rendererD3.elements.svg.d3El = d3.select("#map").append("svg")
         .attr("width", rendererD3.data.widthMap)
@@ -383,7 +383,7 @@ var rendererD3 = {
       ;
     },
     appendG: () => {
-      rendererD3.elements.g.d3El = d3.select('svg').append("g")
+      rendererD3.elements.g.d3El = d3.select("svg").append("g");
     },
     appendScaleLiner: () => {
       rendererD3.elements.scaleLinerX = d3.scaleLinear().domain([0, 1200]).range([0, rendererD3.data.widthMap]);
@@ -391,8 +391,8 @@ var rendererD3 = {
     },
     createPolygon: (data) => {
 
-      d3.select('g')
-        .selectAll('polygon').select('g')
+      d3.select("g")
+        .selectAll("polygon").select("g")
         .data(data)
         .enter().append("polygon")
         .attr("points", (d) => {
@@ -405,19 +405,19 @@ var rendererD3 = {
         .attr("id", item => item.id)
         .attr("stroke-width", 1);
 
-      d3.select('svg')
-        .select('g')
-        .selectAll('polygon')
-        .data('dataset')
+      d3.select("svg")
+        .select("g")
+        .selectAll("polygon")
+        .data("dataset")
         .enter()
         .append("text")
-        .attr("x", data[0].modelView.polygon[1]['x'] - 2 + '%')
-        .attr("y", data[0].modelView.polygon[1]['y'] + 3.4 + '%')
+        .attr("x", data[0].modelView.polygon[1]["x"] - 2 + "%")
+        .attr("y", data[0].modelView.polygon[1]["y"] + 3.4 + "%")
         .text("10");
     }
   },
   ajax: {
-    get: (url) => fetch(url, {method: 'GET'})
+    get: (url) => fetch(url, {method: "GET"})
   }
 };
 

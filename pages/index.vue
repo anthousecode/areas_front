@@ -103,7 +103,6 @@
 </template>
 <!--https://www.youtube.com/watch?v=TZmdPZGAbdU-->
 <script>
-import { Pano } from "vuejs-vr";
 import { mapGetters } from "vuex";
 import Loading from "../components/loading";
 
@@ -210,12 +209,10 @@ export default {
   },
   beforeCreate() {},
   mounted() {
-    if (process.client) {
       this.setStartOptions(1000);
-    }
   },
   watch: {
-    isPlay(newVal, oldVal) {
+    isPlay(newVal) {
       if (newVal === true) {
         this.$bus.$emit("changeZIndexVisible");
       }

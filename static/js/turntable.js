@@ -9,7 +9,7 @@
 (function ($) {
   $.fn.turntable = function (options) {
     // variable declarations
-    'use strict';
+    "use strict";
 
     var mobilecheck = function () {
       var check = false;
@@ -19,7 +19,7 @@
       return check;
     };
 
-    var $listItems = $('ul', this).children(),
+    var $listItems = $("ul", this).children(),
       settings = $.extend({}, $.fn.turntable.defaults, options),
       $turntable = $(this),
       sections = [];
@@ -30,9 +30,9 @@
 
       var initialLength,
         dividend = images.length;
-      if (settings.axis === 'scroll') {
+      if (settings.axis === "scroll") {
         initialLength = $(window).height();
-      } else if (settings.axis === 'y') {
+      } else if (settings.axis === "y") {
         initialLength = $turntable.height();
       } else {
         initialLength = $turntable.width();
@@ -63,13 +63,13 @@
     //loads images one at a time on page load
     (function appendImages(callback) {
       $listItems.each(function () {
-        $(this).html('<img src="' + $(this).data("imgSrc") + '">');
+        $(this).html("<img src=\"" + $(this).data("imgSrc") + "\">");
       });
     })();
 
     // divides container once image is loaded
     $("li:first-child>img", $turntable).load(function () {
-      $(this).parent().addClass('active');
+      $(this).parent().addClass("active");
       divideContainer($listItems);
     });
 
@@ -90,13 +90,13 @@
 
     // finds mouse position and appends body
     // based on location
-    if (settings.axis === 'scroll') {
+    if (settings.axis === "scroll") {
       // scroll
       return $(window).scroll(function () {
         var scrollStart;
-        if (settings.scrollStart === 'bottom') {
+        if (settings.scrollStart === "bottom") {
           scrollStart = $turntable.height();
-        } else if (settings.scrollStart === 'top') {
+        } else if (settings.scrollStart === "top") {
           scrollStart = 0;
         } else {
           // scroll start is middle or other unusable value
@@ -114,7 +114,7 @@
         var offset = $(this).offset();
         var t = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
         var position;
-        if (settings.axis === 'y') {
+        if (settings.axis === "y") {
           position = t.pageY - offset.top;
         } else {
           position = t.pageX - offset.left;
@@ -128,7 +128,7 @@
       return $turntable.on("mousemove", function (e) {
         var offset = $(this).offset();
         var position;
-        if (settings.axis === 'y') {
+        if (settings.axis === "y") {
           position = e.pageY - offset.top;
         } else {
           position = e.pageX - offset.left;
@@ -139,9 +139,9 @@
   }; //end if
 
   $.fn.turntable.defaults = {
-    axis: 'x',
+    axis: "x",
     reverse: false, // true or false, will reverse the array of images
-    scrollStart: 'middle', // only necessary if axis = 'scroll'
+    scrollStart: "middle", // only necessary if axis = 'scroll'
   };
 
 })(jQuery);

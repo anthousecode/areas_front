@@ -4,14 +4,14 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _fe0f61c8 = () => interopDefault(import('../pages/About.vue' /* webpackChunkName: "pages/About" */))
-const _9e713ad8 = () => interopDefault(import('../pages/Contacts.vue' /* webpackChunkName: "pages/Contacts" */))
-const _14c2e10e = () => interopDefault(import('../pages/Dynamic.vue' /* webpackChunkName: "pages/Dynamic" */))
-const _b7db92be = () => interopDefault(import('../pages/Gallery.vue' /* webpackChunkName: "pages/Gallery" */))
-const _79dac5b8 = () => interopDefault(import('../pages/Infrastructure.vue' /* webpackChunkName: "pages/Infrastructure" */))
-const _30854994 = () => interopDefault(import('../pages/News.vue' /* webpackChunkName: "pages/News" */))
-const _684ec5ca = () => interopDefault(import('../pages/Sales.vue' /* webpackChunkName: "pages/Sales" */))
-const _293e0a01 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _3154fe06 = () => interopDefault(import('../pages/About.vue' /* webpackChunkName: "pages/About" */))
+const _226e536a = () => interopDefault(import('../pages/Contacts.vue' /* webpackChunkName: "pages/Contacts" */))
+const _20af7d78 = () => interopDefault(import('../pages/Dynamic.vue' /* webpackChunkName: "pages/Dynamic" */))
+const _a00259ea = () => interopDefault(import('../pages/Gallery.vue' /* webpackChunkName: "pages/Gallery" */))
+const _1f89d50c = () => interopDefault(import('../pages/Infrastructure.vue' /* webpackChunkName: "pages/Infrastructure" */))
+const _67c2156a = () => interopDefault(import('../pages/News.vue' /* webpackChunkName: "pages/News" */))
+const _7c354c05 = () => interopDefault(import('../pages/Sales.vue' /* webpackChunkName: "pages/Sales" */))
+const _4cca8e2a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +26,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/About",
-    component: _fe0f61c8,
+    component: _3154fe06,
     name: "About"
   }, {
     path: "/Contacts",
-    component: _9e713ad8,
+    component: _226e536a,
     name: "Contacts"
   }, {
     path: "/Dynamic",
-    component: _14c2e10e,
+    component: _20af7d78,
     name: "Dynamic"
   }, {
     path: "/Gallery",
-    component: _b7db92be,
+    component: _a00259ea,
     name: "Gallery"
   }, {
     path: "/Infrastructure",
-    component: _79dac5b8,
+    component: _1f89d50c,
     name: "Infrastructure"
   }, {
     path: "/News",
-    component: _30854994,
+    component: _67c2156a,
     name: "News"
   }, {
     path: "/Sales",
-    component: _684ec5ca,
+    component: _7c354c05,
     name: "Sales"
   }, {
     path: "/",
-    component: _293e0a01,
+    component: _4cca8e2a,
     name: "index"
   }],
 

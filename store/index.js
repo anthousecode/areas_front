@@ -1,33 +1,33 @@
 export const state = () => ({
-  language: 'ru',
+  language: "ru",
   postId: null,
-  basePath: 'https://api.martovariverside.com',
-  dynamicPageRu: '',
-  dynamicPageUa: '',
-  slug: '',
+  basePath: "https://api.martovariverside.com",
+  dynamicPageRu: "",
+  dynamicPageUa: "",
+  slug: "",
   currentUserName: null,
 });
 export const mutations = {
   SET_RUS_LANGUAGE(state) {
-    state.language = 'ru'
+    state.language = "ru";
   },
   SET_SLUG(state, slug) {
-    state.slug = slug
+    state.slug = slug;
   },
   SET_UA_LANGUAGE(state) {
-    state.language = 'ua'
+    state.language = "ua";
   },
   SET_POST_ID(state, id) {
-    state.postId = id
+    state.postId = id;
   },
   SET_DYNAMIC_PAGE_RU(state, page) {
-    state.dynamicPageRu = page
+    state.dynamicPageRu = page;
   },
   SET_USER_NAME(state, name) {
-    state.currentUserName = name
+    state.currentUserName = name;
   },
   SET_DYNAMIC_PAGE_UA(state, page) {
-    state.dynamicPageUa = page
+    state.dynamicPageUa = page;
   }
 };
 export const actions = {

@@ -13,7 +13,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_axios_09c7357d from 'nuxt_plugin_axios_09c7357d' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_axios_41040153 from 'nuxt_plugin_axios_41040153' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_vuelidate_1613848c from 'nuxt_plugin_vuelidate_1613848c' // Source: ../plugins/vuelidate (mode: 'client')
 import nuxt_plugin_vuenotifications_255a642c from 'nuxt_plugin_vuenotifications_255a642c' // Source: ../plugins/vue-notifications (mode: 'client')
 import nuxt_plugin_localizefilter_69904b67 from 'nuxt_plugin_localizefilter_69904b67' // Source: ../plugins/locales/localize.filter.js (mode: 'client')
@@ -207,8 +207,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_axios_09c7357d === 'function') {
-    await nuxt_plugin_axios_09c7357d(app.context, inject)
+  if (typeof nuxt_plugin_axios_41040153 === 'function') {
+    await nuxt_plugin_axios_41040153(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuelidate_1613848c === 'function') {

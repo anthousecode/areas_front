@@ -6,16 +6,17 @@
             autoplay="autoplay"
             muted="muted"
             :key="Math.random()"
-            loop="loop"
+            loop="loop
         >
-          <!--  <source
-                src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
-                type="video/mp4"
-            /> -->
-           <source
-                src="https://youtu.be/w8R4KUZJFEU"
+            <!-- https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4 -->
+            <source
+                src="https://drive.google.com/file/d/13Asvw3_ORaZ_hhen2tjNyi8vhXk4gFmS/view?usp=sharing"
                 type="video/mp4"
             />
+          <!-- <source
+                src="https://youtu.be/w8R4KUZJFEU"
+                type="video/mp4"
+            /> -->
         </video>
         <main class="infra d-flex justify-content-center">
             <section>

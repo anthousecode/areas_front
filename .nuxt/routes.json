@@ -2,57 +2,57 @@
   {
     "name": "About",
     "path": "/About",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/About.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/About.vue",
     "chunkName": "pages/About",
-    "_name": "_fe0f61c8"
+    "_name": "_3154fe06"
   },
   {
     "name": "Contacts",
     "path": "/Contacts",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Contacts.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/Contacts.vue",
     "chunkName": "pages/Contacts",
-    "_name": "_9e713ad8"
+    "_name": "_226e536a"
   },
   {
     "name": "Dynamic",
     "path": "/Dynamic",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Dynamic.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/Dynamic.vue",
     "chunkName": "pages/Dynamic",
-    "_name": "_14c2e10e"
+    "_name": "_20af7d78"
   },
   {
     "name": "Gallery",
     "path": "/Gallery",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Gallery.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/Gallery.vue",
     "chunkName": "pages/Gallery",
-    "_name": "_b7db92be"
+    "_name": "_a00259ea"
   },
   {
     "name": "Infrastructure",
     "path": "/Infrastructure",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Infrastructure.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/Infrastructure.vue",
     "chunkName": "pages/Infrastructure",
-    "_name": "_79dac5b8"
+    "_name": "_1f89d50c"
   },
   {
     "name": "News",
     "path": "/News",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/News.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/News.vue",
     "chunkName": "pages/News",
-    "_name": "_30854994"
+    "_name": "_67c2156a"
   },
   {
     "name": "Sales",
     "path": "/Sales",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/Sales.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/Sales.vue",
     "chunkName": "pages/Sales",
-    "_name": "_684ec5ca"
+    "_name": "_7c354c05"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/alex/Рабочий стол/Uchastki_old/areas_front/pages/index.vue",
+    "component": "/home/alex/Desktop/CODE/areas_front/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_293e0a01"
+    "_name": "_4cca8e2a"
   }
 ]

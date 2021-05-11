@@ -4211,7 +4211,7 @@ export default {
     // /fetch-areas
     asyncData({ $axios }) {
         return $axios
-            .get(`fetch-areas`)
+            .get("fetch-areas")
             .then((res) => {
                 // convertHex
                 function convertHex(color) {
@@ -4305,7 +4305,7 @@ export default {
                 this.$notify({
                     group: "foo",
                     type: "error",
-                    title: `Ошибка`,
+                    title: "Ошибка",
                     text: `Участка с номером ${this.regionNumber} не существует!`,
                 });
             }
@@ -4526,7 +4526,7 @@ export default {
             );
         },
         getImg() {
-            '<img unselectable="on" src="/setka2.jpg" class="img-fluid w-100" id="dynamicImg">';
+            "<img unselectable=\"on\" src=\"/setka2.jpg\" class=\"img-fluid w-100\" id=\"dynamicImg\">";
         },
         removeSvg() {
             d3.select("svg").remove();
